@@ -10,6 +10,10 @@
 		BE522EE12C254DD200361A2E /* HarryPotterBioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE522EE02C254DD200361A2E /* HarryPotterBioApp.swift */; };
 		BE522EE52C254DD400361A2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE522EE42C254DD400361A2E /* Assets.xcassets */; };
 		BE522EE82C254DD400361A2E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE522EE72C254DD400361A2E /* Preview Assets.xcassets */; };
+		BE8C4E4C2C37BA5B00C47D36 /* BookInfoRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8C4E4B2C37BA5B00C47D36 /* BookInfoRow.swift */; };
+		BE8C4E4E2C37C57600C47D36 /* CharacterInfoRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8C4E4D2C37C57600C47D36 /* CharacterInfoRow.swift */; };
+		BE8C4E502C37D60B00C47D36 /* HouseInfoRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8C4E4F2C37D60B00C47D36 /* HouseInfoRow.swift */; };
+		BE8C4E522C37D91A00C47D36 /* SpellInfoRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE8C4E512C37D91A00C47D36 /* SpellInfoRow.swift */; };
 		BEAD4CA42C32C38300AB55DF /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAD4CA32C32C38300AB55DF /* Character.swift */; };
 		BEAD4CA62C32C7AE00AB55DF /* House.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAD4CA52C32C7AE00AB55DF /* House.swift */; };
 		BEAD4CA82C32C92B00AB55DF /* Spell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEAD4CA72C32C92B00AB55DF /* Spell.swift */; };
@@ -27,6 +31,10 @@
 		BE522EE02C254DD200361A2E /* HarryPotterBioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HarryPotterBioApp.swift; sourceTree = "<group>"; };
 		BE522EE42C254DD400361A2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BE522EE72C254DD400361A2E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BE8C4E4B2C37BA5B00C47D36 /* BookInfoRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookInfoRow.swift; sourceTree = "<group>"; };
+		BE8C4E4D2C37C57600C47D36 /* CharacterInfoRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterInfoRow.swift; sourceTree = "<group>"; };
+		BE8C4E4F2C37D60B00C47D36 /* HouseInfoRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseInfoRow.swift; sourceTree = "<group>"; };
+		BE8C4E512C37D91A00C47D36 /* SpellInfoRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellInfoRow.swift; sourceTree = "<group>"; };
 		BEAD4CA32C32C38300AB55DF /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 		BEAD4CA52C32C7AE00AB55DF /* House.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = House.swift; sourceTree = "<group>"; };
 		BEAD4CA72C32C92B00AB55DF /* Spell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spell.swift; sourceTree = "<group>"; };
@@ -95,6 +103,10 @@
 				BEF5396A2C2B924E00C7145A /* CategoryList.swift */,
 				BEF5396E2C2B959E00C7145A /* CategoryRow.swift */,
 				BEAD4CA92C3401BB00AB55DF /* CategoryDetails.swift */,
+				BE8C4E4B2C37BA5B00C47D36 /* BookInfoRow.swift */,
+				BE8C4E4D2C37C57600C47D36 /* CharacterInfoRow.swift */,
+				BE8C4E4F2C37D60B00C47D36 /* HouseInfoRow.swift */,
+				BE8C4E512C37D91A00C47D36 /* SpellInfoRow.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -184,7 +196,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BEAD4CA42C32C38300AB55DF /* Character.swift in Sources */,
+				BE8C4E502C37D60B00C47D36 /* HouseInfoRow.swift in Sources */,
 				BEF539692C2B8D8900C7145A /* Book.swift in Sources */,
+				BE8C4E4C2C37BA5B00C47D36 /* BookInfoRow.swift in Sources */,
 				BEF5396B2C2B924E00C7145A /* CategoryList.swift in Sources */,
 				BEAD4CA82C32C92B00AB55DF /* Spell.swift in Sources */,
 				BEAD4CAA2C3401BB00AB55DF /* CategoryDetails.swift in Sources */,
@@ -192,7 +206,9 @@
 				BEF5396F2C2B959E00C7145A /* CategoryRow.swift in Sources */,
 				BE522EE12C254DD200361A2E /* HarryPotterBioApp.swift in Sources */,
 				BEAD4CA62C32C7AE00AB55DF /* House.swift in Sources */,
+				BE8C4E4E2C37C57600C47D36 /* CharacterInfoRow.swift in Sources */,
 				BEF539712C2C0FD200C7145A /* Category.swift in Sources */,
+				BE8C4E522C37D91A00C47D36 /* SpellInfoRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -17,6 +17,7 @@ struct CategoryRow: View {
             Spacer()
         }
     }
+    
 }
 
 #Preview {

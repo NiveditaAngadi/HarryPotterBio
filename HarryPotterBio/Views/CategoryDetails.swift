@@ -16,12 +16,7 @@ struct CategoryDetails: View {
         case .books:
             ZStack {
                 List(dataFetcher.booksDataModel, id: \.index) { item in
-                    VStack(alignment: .leading) {
-                        Text(item.title)
-                            .font(.subheadline)
-                        Text(item.releaseDate)
-                            .font(.caption)
-                    }
+                    BookInfoRow(book: item)
                 }
                 if dataFetcher.booksDataModel.isEmpty {
                     ProgressView()
@@ -37,14 +32,9 @@ struct CategoryDetails: View {
             ZStack {
                 List {
                     ForEach(dataFetcher.charactersDataModel, id: \.index) { item in
-                        VStack(alignment: .leading) {
-                            Text(item.fullName)
-                                .font(.subheadline)
-                            Text(item.hogwartsHouse)
-                                .font(.subheadline)
-                        }
+                       CharacterInfoRow(character: item)
                     }
-                }
+                }.listStyle(.plain)
                 
                 if dataFetcher.charactersDataModel.isEmpty {
                     ProgressView()
@@ -59,12 +49,7 @@ struct CategoryDetails: View {
         case .houses:
             ZStack {
                 List(dataFetcher.housesDataModel, id: \.index) { item in
-                    VStack(alignment: .leading) {
-                        Text(item.house)
-                            .font(.subheadline)
-                        Text(item.emoji)
-                            .font(.caption)
-                    }
+                 HouseInfoRow(house: item)
                 }
                 if dataFetcher.housesDataModel.isEmpty {
                     ProgressView()
@@ -79,12 +64,7 @@ struct CategoryDetails: View {
         case .spells:
             ZStack {
                 List(dataFetcher.spellsDataModel, id: \.index) { item in
-                    VStack(alignment: .leading) {
-                        Text(item.spell)
-                            .font(.subheadline)
-                        Text(item.use)
-                            .font(.caption)
-                    }
+                    SpellInfoRow(spell: item)
                 }
                 if dataFetcher.spellsDataModel.isEmpty {
                     ProgressView()
